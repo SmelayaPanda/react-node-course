@@ -4,7 +4,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-    res.send({hi: 'Ree'});
+    res.send({hi: 'Reex'});
 })
 
 // because heroku server can run many app one one machine,
