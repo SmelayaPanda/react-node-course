@@ -1,37 +1,11 @@
 const express = require('express');
-const passport = require('passport')
-const GoogleStrategy = require('passport-google-oauth20').Strategy;
-const keys = require('./config/keys')
+require('./services/passport')
+
 // inside one node app can be several app instances
 const app = express();
-
-// https://console.developers.google.com
-passport.use(
-    new GoogleStrategy({
-            clientID: keys.googleClientID,
-            clientSecret: keys.googleClientSecret,
-            callbackURL: '/auth/google/callback'
-        },
-        (accessToken, refreshToken, profile, done) => {
-            console.log('accessToken', accessToken);
-            console.log('refreshToken', refreshToken);
-            console.log('profile', profile);
-            // console.log('done', done);
-        })
-);
-
-app.get(
-    '/auth/google',
-    passport.authenticate('google', {
-        scope: ['profile', 'email']
-    })
-);
+require('./routes/auth')(app)
 
 
-app.get(
-    '/auth/google/callback',
-    passport.authenticate('google')
-)
 
 // because heroku server can run many app one one machine,
 // we use dynamic port binding form env variables
