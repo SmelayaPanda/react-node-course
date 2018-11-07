@@ -13,11 +13,13 @@ passport.use(
         },
         (accessToken, refreshToken, profile, done) => {
             User.findOne({googleId: profile.id}).then(existingUser => {
-                console.log(existingUser);
                 if (existingUser) {
-                    // ...
+                    // first argument - error, second argument - used by passport to confirm founded user
+                    done(null, existingUser)
                 } else {
-                    new User({googleId: profile.id}).save()
+                    new User({googleId: profile.id}) // mongo model instance - represent a single record in collection
+                        .save() // save to Mongo
+                        .then(user => done(null, user))
                 }
             })
 
