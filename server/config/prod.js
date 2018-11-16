@@ -2,6 +2,7 @@
 // DO commit this file!
 
 // Setup heroku env variables: Dashboard => settings => config vars
+// or $ heroku config:set var:value
 // get variables via console:
 // $ heroku config
 module.exports = {
