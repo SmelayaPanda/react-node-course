@@ -1,8 +1,19 @@
-
-Open heroku commands
+HEROKU
+ 
 ```
-$ heroku --help
+Commands:
+
+$ heroku
+
+$ heroku open - open in browser
 ```
 
+
+
+To deploy your app to Heroku:
+// git push [remote server] [branch]
 
 git status
+git add .
+git commit -m 'Message'
+git push heroku master // heroku - alias name of remoute server

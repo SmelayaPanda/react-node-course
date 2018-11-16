@@ -2,6 +2,8 @@
 // DO commit this file!
 
 // Setup heroku env variables: Dashboard => settings => config vars
+// get variables via console:
+// $ heroku config
 module.exports = {
     googleClientID: process.env.GOOGLE_CLIENT_ID,
     googleClientSecret: process.env.GOOGLE_CLIENT_SECRET,
