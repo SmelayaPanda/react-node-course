@@ -27,16 +27,17 @@ passport.use(
             callbackURL: '/auth/google/callback',
             proxy: true
         },
-        (accessToken, refreshToken, profile, done) => {
-            User.findOne({googleId: profile.id}).then(existingUser => {
-                if (existingUser) {
-                    // first argument - error, second argument - used by passport to confirm founded user
-                    done(null, existingUser)
-                } else {
-                    new User({googleId: profile.id}) // mongo model instance - represent a single record in collection
-                        .save() // save to Mongo
-                        .then(user => done(null, user))
-                }
-            })
+        async (accessToken, refreshToken, profile, done) => {
+            const existingUser = await User.findOne({googleId: profile.id})
+            if (existingUser) {
+                // first argument - error, second argument - used by passport to confirm founded user
+                return done(null, existingUser)
+            }
+            // mongo model instance - represent a single record in collection
+            const user = await new User({googleId: profile.id}).save() // save to Mongo
+            done(null, user)
         })
 );
+
+
+// async await works for Node >= 8.0v

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptLibraryMappings">
+    <file url="PROJECT" libraries="{@types/express, @types/express-handlebars, @types/express-partials, @types/express-route-fs, @types/express-session, @types/mongodb, @types/mongoose, @types/mongoose-auto-increment, @types/mongoose-deep-populate, @types/mongoose-geojson-schema, @types/mongoose-mock, @types/mongoose-paginate, @types/mongoose-promise, @types/mongoose-seeder, @types/mongoose-sequence, @types/mongoose-simple-random, @types/mongoose-unique-validator, @types/node, @types/passport}" />
+    <includedPredefinedLibrary name="Node.js Core" />
+  </component>
+</project>

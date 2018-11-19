@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/temp" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="@types/node" level="application" />
+    <orderEntry type="library" name="@types/express" level="application" />
+    <orderEntry type="library" name="@types/express-handlebars" level="application" />
+    <orderEntry type="library" name="@types/express-partials" level="application" />
+    <orderEntry type="library" name="@types/express-route-fs" level="application" />
+    <orderEntry type="library" name="@types/express-session" level="application" />
+    <orderEntry type="library" name="@types/mongodb" level="application" />
+    <orderEntry type="library" name="@types/mongoose" level="application" />
+    <orderEntry type="library" name="@types/mongoose-auto-increment" level="application" />
+    <orderEntry type="library" name="@types/mongoose-deep-populate" level="application" />
+    <orderEntry type="library" name="@types/mongoose-geojson-schema" level="application" />
+    <orderEntry type="library" name="@types/mongoose-mock" level="application" />
+    <orderEntry type="library" name="@types/mongoose-paginate" level="application" />
+    <orderEntry type="library" name="@types/mongoose-promise" level="application" />
+    <orderEntry type="library" name="@types/mongoose-seeder" level="application" />
+    <orderEntry type="library" name="@types/mongoose-sequence" level="application" />
+    <orderEntry type="library" name="@types/mongoose-simple-random" level="application" />
+    <orderEntry type="library" name="@types/mongoose-unique-validator" level="application" />
+    <orderEntry type="library" name="@types/passport" level="application" />
+  </component>
+</module>
