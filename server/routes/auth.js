@@ -11,14 +11,17 @@ module.exports = (app) => {
 
     app.get(
         '/auth/google/callback',
-        passport.authenticate('google')
+        passport.authenticate('google'),
+        (req, res) => {
+            res.redirect('/surveys')
+        }
     )
 
     app.get(
         '/api/logout',
         (req, res) => {
             req.logout() // logout it is a function automatically attached to request object by passport
-            res.send('Logged out')
+            res.redirect('/')
         }
     )
 
