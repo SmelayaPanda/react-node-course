@@ -17,7 +17,7 @@ module.exports = app => {
                 source: req.body.id
             })
 
-            console.log(charge);
+            console.log('New charge: ', charge);
             // req.user - attached to request object automatically by passport
             req.user.credits += 5
             const user = await req.user.save()
