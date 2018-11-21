@@ -1,14 +1,14 @@
 const keys =  require('../config/keys')
 const stripe = require('stripe')(keys.stripeSecretKey)
+const requireLogin = require('../middlewares/requireLogin')
 
+// there can be arbitrary chain of middleware functions
+// eventually (last) one should handle request (send back to the user)
 module.exports = app => {
     app.post(
         '/api/stripe',
+        requireLogin,
         async (req, res) => {
-            if (!req.user) {
-                // 401 - unauthorized or forbidden
-                return res.status(401).send({error: 'You must login!'})
-            }
 
             const charge = await stripe.charges.create({
                 amount: 500,
