@@ -6,6 +6,7 @@ Commands:
 $ heroku
 
 $ heroku open - open in browser
+$ heroku restart - restart the server
 ```
 
 
