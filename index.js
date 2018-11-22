@@ -5,6 +5,7 @@ const passport = require('passport')
 const bodyParser = require('body-parser')
 const keys = require('./config/keys')
 require('./models/User') // before passport because it used model
+require('./models/Survey')
 require('./services/passport')
 
 mongoose.connect(keys.mongoURI)
