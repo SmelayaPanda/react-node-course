@@ -2,7 +2,7 @@ const keys = require('../../config/keys')
 
 module.exports = survey => {
     return `
-        <html>
+        <html lang="en">
         <body>
         <div style="text-align: center">
             <h3> I'd like your input</h3>
