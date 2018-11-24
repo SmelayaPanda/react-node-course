@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2f887bed-e108-40e2-8713-b16ef2cc21d8" name="Default Changelist" comment="send btn">
+    <list default="true" id="2f887bed-e108-40e2-8713-b16ef2cc21d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/actions/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/surveys/SurveyFormReview.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyFormReview.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/surveys/SurveyNew.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyNew.js" afterDir="false" />
     </list>
     <list id="997be7ff-7b23-4a58-8196-5074baa4b6ae" name="secret" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,13 +21,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/components/surveys/SurveyNew.js">
+        <entry file="file://$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="797">
-              <caret line="31" column="73" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="73" />
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="182">
+              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -67,6 +62,7 @@
       <find>fetchUser</find>
       <find>formValues</find>
       <find>surveyForm</find>
+      <find>I'd like your input</find>
     </findStrings>
     <replaceStrings>
       <replace>formFields</replace>
@@ -124,11 +120,11 @@
         <option value="$PROJECT_DIR$/client/src/components/surveys/SurveyField.js" />
         <option value="$PROJECT_DIR$/client/src/index.js" />
         <option value="$PROJECT_DIR$/client/src/utils/validateEmails.js" />
+        <option value="$PROJECT_DIR$/client/src/components/surveys/SurveyFormReview.js" />
+        <option value="$PROJECT_DIR$/client/src/components/surveys/SurveyNew.js" />
         <option value="$PROJECT_DIR$/client/src/components/surveys/formFields.js" />
         <option value="$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js" />
         <option value="$PROJECT_DIR$/client/src/actions/index.js" />
-        <option value="$PROJECT_DIR$/client/src/components/surveys/SurveyFormReview.js" />
-        <option value="$PROJECT_DIR$/client/src/components/surveys/SurveyNew.js" />
       </list>
     </option>
   </component>
@@ -197,6 +193,29 @@
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="reducers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-node-course" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-node-course" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-node-course" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-node-course" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+              <item name="emailTemplates" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,21 +304,7 @@
       <workItem from="1542874447089" duration="7009000" />
       <workItem from="1542944860073" duration="10392000" />
       <workItem from="1542989577693" duration="94000" />
-      <workItem from="1543030210856" duration="14556000" />
-    </task>
-    <task id="LOCAL-00004" summary="callback function, nodemon">
-      <created>1539867131367</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1539867131367</updated>
-    </task>
-    <task id="LOCAL-00005" summary="refactor folder structure">
-      <created>1539870437997</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1539870437997</updated>
+      <workItem from="1543030210856" duration="15038000" />
     </task>
     <task id="LOCAL-00006" summary="add mongoose">
       <created>1541575545152</created>
@@ -630,11 +635,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543074401293</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="survey form improve">
+      <created>1543075812315</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1543075812316</updated>
+    </task>
+    <task id="LOCAL-00054" summary="rename">
+      <created>1543076063514</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1543076063514</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92215000" />
+    <option name="totallyTimeSpent" value="92697000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -743,8 +762,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add stripe" />
-    <MESSAGE value="add billing route" />
     <MESSAGE value="require login middleware" />
     <MESSAGE value="show credits" />
     <MESSAGE value="heroku production build config" />
@@ -768,7 +785,9 @@
     <MESSAGE value="save form state" />
     <MESSAGE value="form fields" />
     <MESSAGE value="send btn" />
-    <option name="LAST_COMMIT_MESSAGE" value="send btn" />
+    <MESSAGE value="survey form improve" />
+    <MESSAGE value="rename" />
+    <option name="LAST_COMMIT_MESSAGE" value="rename" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -948,20 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/routes/survey.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="17" column="15" lean-forward="true" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/dev.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1040,13 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/utils/validateEmails.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/surveys/SurveyField.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="234">
@@ -1056,13 +1054,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/.env.production">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/surveys/formFields.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="14" selection-start-column="14" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/reducers/authReducer.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -1104,26 +1095,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/actions/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="22" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="811">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/surveys/SurveyFormReview.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -1136,11 +1107,59 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/surveys/SurveyNew.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="797">
-          <caret line="31" column="73" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="73" />
+        <state relative-caret-position="494">
+          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/surveys/formFields.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/utils/validateEmails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="38" column="21" lean-forward="true" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/routes/survey.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-166">
+          <caret line="10" column="28" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/actions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="14" column="56" lean-forward="true" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="56" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
         </state>
       </provider>
     </entry>
