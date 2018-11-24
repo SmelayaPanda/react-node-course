@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import {reduxForm, Field} from 'redux-form'
+import {Field, reduxForm} from 'redux-form'
 import SurveyField from "./SurveyField";
 
 const FIELDS = [
@@ -11,11 +11,9 @@ const FIELDS = [
 
 class SurveyForm extends Component {
 
-    static renderFields() {
-        return FIELDS.map(({name, label}) => {
-           return <Field key={name} name={name} label={label} type={'text'} component={SurveyField}/>
-        })
-    }
+    static renderFields = () => FIELDS.map(field => {
+        return <Field key={field.name} {...field} type={'text'} component={SurveyField}/>
+    });
 
     render() {
         return (
