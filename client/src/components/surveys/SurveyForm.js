@@ -3,17 +3,11 @@ import {Field, reduxForm} from 'redux-form'
 import SurveyField from "./SurveyField";
 import {Link} from "react-router-dom";
 import validateEmails from "../../utils/validateEmails";
-
-const FIELDS = [
-    {name: 'title', label: 'Survey Title'},
-    {name: 'subject', label: 'Subject line'},
-    {name: 'body', label: 'Email Body'},
-    {name: 'emails', label: 'Recipient List'}
-]
+import formFields from './formFields'
 
 class SurveyForm extends Component {
 
-    static renderFields = () => FIELDS.map(field => {
+    static renderFields = () => formFields.map(field => {
         return <Field key={field.name} {...field} type={'text'} component={SurveyField}/>
     });
 
@@ -46,7 +40,7 @@ function validate(values) {
 
     errors.emails = validateEmails(values.emails)
 
-    FIELDS.forEach(({name}) => {
+    formFields.forEach(({name}) => {
         if (!values[name]) {
             errors[name] = `You must provide a ${name}`
         }
