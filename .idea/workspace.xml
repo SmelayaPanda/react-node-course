@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f887bed-e108-40e2-8713-b16ef2cc21d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/utils/validateEmails.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js" afterDir="false" />
     </list>
     <list id="997be7ff-7b23-4a58-8196-5074baa4b6ae" name="secret" comment="" />
@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+            <state relative-caret-position="284">
+              <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -67,7 +67,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/server/README.md" />
         <option value="$PROJECT_DIR$/server/client/package.json" />
         <option value="$PROJECT_DIR$/server/client/src/App.js" />
         <option value="$PROJECT_DIR$/server/test.js" />
@@ -115,8 +114,9 @@
         <option value="$PROJECT_DIR$/client/src/components/Dashboard.js" />
         <option value="$PROJECT_DIR$/client/src/reducers/index.js" />
         <option value="$PROJECT_DIR$/client/src/components/surveys/SurveyNew.js" />
-        <option value="$PROJECT_DIR$/client/src/components/surveys/SurveyField.js" />
         <option value="$PROJECT_DIR$/client/src/components/App.js" />
+        <option value="$PROJECT_DIR$/client/src/components/surveys/SurveyField.js" />
+        <option value="$PROJECT_DIR$/client/src/utils/validateEmails.js" />
         <option value="$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js" />
       </list>
     </option>
@@ -156,33 +156,6 @@
               <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-node-course" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-node-course" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="redux-form" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-node-course" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="node_modules" type="462c0819:PsiDirectoryNode" />
-              <item name="redux-form" type="462c0819:PsiDirectoryNode" />
-              <item name="es" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-node-course" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-node-course" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -205,7 +178,7 @@
               <item name="react-node-course" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="reducers" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
@@ -313,7 +286,7 @@
       <workItem from="1542874447089" duration="7009000" />
       <workItem from="1542944860073" duration="10392000" />
       <workItem from="1542989577693" duration="94000" />
-      <workItem from="1543030210856" duration="5827000" />
+      <workItem from="1543030210856" duration="8907000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1538674778928</created>
@@ -623,11 +596,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543051248285</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="cancel">
+      <created>1543051805815</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1543051805815</updated>
+    </task>
+    <task id="LOCAL-00046" summary="basics validations">
+      <created>1543059515591</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1543059515591</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83486000" />
+    <option name="totallyTimeSpent" value="86566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -660,7 +647,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.18531469" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.5902613" />
-      <window_info anchor="bottom" id="Terminal" order="14" visible="true" weight="0.17339668" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.17339668" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -711,8 +698,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="add routing" />
-    <MESSAGE value="add materialize css" />
     <MESSAGE value="apply redux thunk middleware" />
     <MESSAGE value="rewrite with async/await" />
     <MESSAGE value="three auth states" />
@@ -736,7 +721,9 @@
     <MESSAGE value="a -&gt; link" />
     <MESSAGE value="survey form with redux form" />
     <MESSAGE value="improve" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve" />
+    <MESSAGE value="cancel" />
+    <MESSAGE value="basics validations" />
+    <option name="LAST_COMMIT_MESSAGE" value="basics validations" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/server/config/dev.js" />
@@ -1078,15 +1065,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/surveys/SurveyField.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        <state relative-caret-position="234">
+          <caret line="9" column="76" selection-start-line="9" selection-start-column="76" selection-end-line="9" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/utils/validateEmails.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        <state relative-caret-position="284">
+          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
