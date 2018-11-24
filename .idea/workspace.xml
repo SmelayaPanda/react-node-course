@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f887bed-e108-40e2-8713-b16ef2cc21d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyField.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyNew.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js" afterDir="false" />
     </list>
     <list id="997be7ff-7b23-4a58-8196-5074baa4b6ae" name="secret" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -29,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+            <state relative-caret-position="481">
+              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -119,9 +114,9 @@
         <option value="$PROJECT_DIR$/client/public/index.html" />
         <option value="$PROJECT_DIR$/client/src/components/Dashboard.js" />
         <option value="$PROJECT_DIR$/client/src/reducers/index.js" />
-        <option value="$PROJECT_DIR$/client/src/components/App.js" />
         <option value="$PROJECT_DIR$/client/src/components/surveys/SurveyNew.js" />
         <option value="$PROJECT_DIR$/client/src/components/surveys/SurveyField.js" />
+        <option value="$PROJECT_DIR$/client/src/components/App.js" />
         <option value="$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js" />
       </list>
     </option>
@@ -318,7 +313,7 @@
       <workItem from="1542874447089" duration="7009000" />
       <workItem from="1542944860073" duration="10392000" />
       <workItem from="1542989577693" duration="94000" />
-      <workItem from="1543030210856" duration="5076000" />
+      <workItem from="1543030210856" duration="5827000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1538674778928</created>
@@ -614,11 +609,25 @@
       <option name="project" value="LOCAL" />
       <updated>1543033910078</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="survey form with redux form">
+      <created>1543051019383</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1543051019383</updated>
+    </task>
+    <task id="LOCAL-00044" summary="improve">
+      <created>1543051248285</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1543051248285</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82735000" />
+    <option name="totallyTimeSpent" value="83486000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -633,7 +642,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913043" visible="true" weight="0.1969914" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49913043" visible="true" weight="0.1969914" />
       <window_info id="Structure" order="1" sideWeight="0.5008696" side_tool="true" weight="0.260745" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5008696" side_tool="true" weight="0.260745" />
@@ -651,7 +660,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.18531469" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.5902613" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.17339668" />
+      <window_info anchor="bottom" id="Terminal" order="14" visible="true" weight="0.17339668" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -702,8 +711,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="remove boilerplate, wrap with react-redux provider" />
-    <MESSAGE value="add reducer" />
     <MESSAGE value="add routing" />
     <MESSAGE value="add materialize css" />
     <MESSAGE value="apply redux thunk middleware" />
@@ -727,7 +734,9 @@
     <MESSAGE value="survey email" />
     <MESSAGE value="add icons" />
     <MESSAGE value="a -&gt; link" />
-    <option name="LAST_COMMIT_MESSAGE" value="a -&gt; link" />
+    <MESSAGE value="survey form with redux form" />
+    <MESSAGE value="improve" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/server/config/dev.js" />
@@ -1033,16 +1042,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/components/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#0#38#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/client/node_modules/redux-form/es/createReduxForm.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="211">
@@ -1067,6 +1066,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="27" column="9" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/surveys/SurveyField.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="156">
@@ -1076,8 +1085,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/surveys/SurveyForm.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="15" column="62" selection-start-line="15" selection-start-column="62" selection-end-line="15" selection-end-column="62" />
+        <state relative-caret-position="481">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
