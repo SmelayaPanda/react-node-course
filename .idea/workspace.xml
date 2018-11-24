@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f887bed-e108-40e2-8713-b16ef2cc21d8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/Dashboard.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/prod.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/prod.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/survey.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/survey.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/Mailer.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/Mailer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/App.js" afterDir="false" />
     </list>
     <list id="997be7ff-7b23-4a58-8196-5074baa4b6ae" name="secret" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,10 +23,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/dev.js">
+        <entry file="file://$PROJECT_DIR$/client/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+            <state relative-caret-position="130">
+              <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
             </state>
           </provider>
         </entry>
@@ -114,6 +112,9 @@
         <option value="$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js" />
         <option value="$PROJECT_DIR$/routes/survey.js" />
         <option value="$PROJECT_DIR$/config/dev.js" />
+        <option value="$PROJECT_DIR$/client/src/components/App.js" />
+        <option value="$PROJECT_DIR$/client/src/components/Dashboard.js" />
+        <option value="$PROJECT_DIR$/client/public/index.html" />
       </list>
     </option>
   </component>
@@ -136,7 +137,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,6 +148,25 @@
               <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-node-course" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-node-course" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-node-course" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-node-course" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-node-course" type="b2602c69:ProjectViewProjectNode" />
@@ -174,6 +193,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -252,7 +272,9 @@
       <workItem from="1542858084725" duration="118000" />
       <workItem from="1542863945267" duration="4884000" />
       <workItem from="1542874447089" duration="7009000" />
-      <workItem from="1542944860073" duration="9242000" />
+      <workItem from="1542944860073" duration="10392000" />
+      <workItem from="1542989577693" duration="94000" />
+      <workItem from="1543030210856" duration="754000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <created>1538674778928</created>
@@ -527,11 +549,18 @@
       <option name="project" value="LOCAL" />
       <updated>1542971678349</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="survey email">
+      <created>1542979032593</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1542979032593</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76415000" />
+    <option name="totallyTimeSpent" value="78413000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -546,7 +575,7 @@
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913043" visible="true" weight="0.23638968" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49913043" visible="true" weight="0.1969914" />
       <window_info id="Structure" order="1" sideWeight="0.5008696" side_tool="true" weight="0.260745" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" sideWeight="0.5008696" side_tool="true" weight="0.260745" />
@@ -564,7 +593,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.18531469" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.5902613" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.36342043" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.20190024" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -615,7 +644,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cookie session" />
     <MESSAGE value="logout" />
     <MESSAGE value="process environments" />
     <MESSAGE value="remove boilerplate, wrap with react-redux provider" />
@@ -640,7 +668,8 @@
     <MESSAGE value="require credits middleware" />
     <MESSAGE value="add sendgrid" />
     <MESSAGE value="fix sendgrid" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix sendgrid" />
+    <MESSAGE value="survey email" />
+    <option name="LAST_COMMIT_MESSAGE" value="survey email" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/server/config/dev.js" />
@@ -907,8 +936,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/config/dev.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="25" column="68" lean-forward="true" selection-start-line="25" selection-start-column="68" selection-end-line="25" selection-end-column="68" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/components/Dashboard.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
-          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <caret line="8" column="54" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="80" selection-start-line="5" selection-start-column="80" selection-end-line="5" selection-end-column="80" />
         </state>
       </provider>
     </entry>
