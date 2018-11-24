@@ -18,10 +18,12 @@ class SurveyForm extends Component {
     });
 
     render() {
+        const {handleSubmit, onSurveySubmit} = this.props
+
         return (
             <div style={{marginTop: '20px'}}>
-                {/* handleSubmit - provided automatically by redux-form */}
-                <form onSubmit={this.props.handleSubmit(val => console.log(val))}>
+                {/* handleSubmit - provided automatically by redux-form with props */}
+                <form onSubmit={handleSubmit(onSurveySubmit)}>
 
                     {SurveyForm.renderFields()}
 
