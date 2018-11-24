@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import SurveyForm from "./SurveyForm";
 import SurveyFormReview from "./SurveyFormReview";
+import {reduxForm} from "redux-form";
 
 class SurveyNew extends Component {
 
@@ -24,4 +25,9 @@ class SurveyNew extends Component {
     }
 }
 
-export default SurveyNew;
+export default reduxForm({
+    // the same name as in SurveyForm but without destroyOnUnmount props
+    form: 'surveyForm'
+    // when this component unmounted form will be cleared
+    // but if only SurveyForm unmounted all form values will be persisted
+})(SurveyNew);
