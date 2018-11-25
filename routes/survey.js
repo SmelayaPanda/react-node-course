@@ -11,10 +11,23 @@ const Survey = mongoose.model('surveys')
 
 module.exports = app => {
     app.get(
+        '/api/surveys',
+        requireLogin,
+        async (req, res) => {
+            const surveys = await Survey
+                .find({_user: req.user.id})
+                .select({recipients: false}) // here 1/true - include this prop to result, 0/false - exclude prop
+
+            res.send(surveys)
+        }
+    )
+
+    app.get(
         '/api/surveys/:surveyId/:choice',
         (req, res) => {
             res.send('Thanks for voting!')
-        })
+        }
+    )
 
     app.post(
         '/api/surveys/webhooks', // listen sendgrid events API (https://app.sendgrid.com/settings/mail_settings)
