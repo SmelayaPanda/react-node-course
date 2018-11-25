@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2f887bed-e108-40e2-8713-b16ef2cc21d8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/survey.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/survey.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js" afterDir="false" />
     </list>
     <list id="997be7ff-7b23-4a58-8196-5074baa4b6ae" name="secret" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -26,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/survey.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="26">
-              <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+            <state relative-caret-position="634">
+              <caret line="49" column="76" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
             </state>
           </provider>
         </entry>
@@ -309,14 +306,8 @@
       <workItem from="1542944860073" duration="10392000" />
       <workItem from="1542989577693" duration="94000" />
       <workItem from="1543030210856" duration="15886000" />
-      <workItem from="1543117584457" duration="6045000" />
-    </task>
-    <task id="LOCAL-00009" summary="passport callback">
-      <created>1541579359244</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1541579359244</updated>
+      <workItem from="1543117584457" duration="6235000" />
+      <workItem from="1543147805778" duration="1463000" />
     </task>
     <task id="LOCAL-00010" summary="serialize/deserialize user">
       <created>1541588083381</created>
@@ -654,11 +645,18 @@
       <option name="project" value="LOCAL" />
       <updated>1543128031092</updated>
     </task>
-    <option name="localTasksCounter" value="58" />
+    <task id="LOCAL-00058" summary="survey webhook">
+      <created>1543129996419</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1543129996419</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99590000" />
+    <option name="totallyTimeSpent" value="101243000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -691,7 +689,7 @@
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.18531469" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.5902613" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="14" visible="true" weight="0.4811111" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.1711111" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -767,7 +765,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="git ignore" />
     <MESSAGE value="package.json" />
     <MESSAGE value="create survey schema" />
     <MESSAGE value="improve survey schema" />
@@ -792,7 +789,8 @@
     <MESSAGE value="submit survey" />
     <MESSAGE value="routing" />
     <MESSAGE value="webhooks" />
-    <option name="LAST_COMMIT_MESSAGE" value="webhooks" />
+    <MESSAGE value="survey webhook" />
+    <option name="LAST_COMMIT_MESSAGE" value="survey webhook" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -805,13 +803,7 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Downloads/client_secret_196381315561-i6khmmaog755pk3559ipnq3q6lj299hj.apps.googleusercontent.com.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="7" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/client_secret_196381315561-i6khmmaog755pk3559ipnq3q6lj299hj.apps.googleusercontent.com.json" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="52">
@@ -965,13 +957,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/Downloads/Tracking Code.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="35" lean-forward="true" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/Downloads/Tracking Code.js" />
     <entry file="file://$PROJECT_DIR$/client/src/components/Dashboard.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -1139,13 +1125,7 @@
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/sendgrid_webhook.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/sendgrid_webhook.sh" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
@@ -1155,15 +1135,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/services/emailTemplates/surveyTemplate.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="73" selection-start-line="14" selection-start-column="73" selection-end-line="14" selection-end-column="73" />
+        <state relative-caret-position="520">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/survey.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="1" column="45" selection-start-line="1" selection-start-column="45" selection-end-line="1" selection-end-column="45" />
+        <state relative-caret-position="634">
+          <caret line="49" column="76" selection-start-line="49" selection-start-column="76" selection-end-line="49" selection-end-column="76" />
         </state>
       </provider>
     </entry>
