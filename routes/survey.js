@@ -14,6 +14,14 @@ module.exports = app => {
         }
     )
 
+    app.get(
+        '/api/surveys/webhooks',
+        (req, res) => {
+            console.log(req.body);
+            res.send({})
+        }
+    )
+
     app.post(
         '/api/surveys',
         requireLogin,
