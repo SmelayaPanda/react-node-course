@@ -1,5 +1,5 @@
 const _ = require('lodash')
-const {Path} = require('path-parser').default
+const {Path} = require('path-parser')
 const {URL} = require('url')
 const mongoose = require('mongoose')
 const requireLogin = require('../middlewares/requireLogin')
@@ -17,10 +17,9 @@ module.exports = app => {
         })
 
     app.post(
-        '/api/surveys/webhooks',
+        '/api/surveys/webhooks', // listen sendgrid events API (https://app.sendgrid.com/settings/mail_settings)
         (req, res) => {
             const p = new Path('/api/surveys/:surveyId/:choice')
-
             _.chain(req.body)
                 .map(({email, url}) => {
                     const match = p.test(new URL(url).pathname)
@@ -53,7 +52,7 @@ module.exports = app => {
                             },
                             lastResponded: new Date()
                         }
-                    ).exec()
+                    ).exec() // execute query!
                 })
                 .value()
 
